@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### What is this Project
+### What is this Project?
 
 Well, this is a simple, yet professional with a modular and advanced structure to get you then <br />
 fundamentals structure of a frontend web-app using react.
@@ -10,34 +10,34 @@ Its offering an easily scalable structure.
 So all you need is to clone and starting imlementing your components and pages without <br />
 worrying about the basics.
 
-### What does it provide
+### What does it Provide?
 
 ## Authentication
 
 Already setup the authentication/signin component with the corresponding redux action, actionType <br />
 and reducer. Its currently made to work with a rest API.
 
-## Setup Redux
+## Redux already setup.
 
 Redux is already setup and ready to add new reducers with actions and actionTypes very easily with <br />
 so no need to worry about all that boring hustle to set it up.
 
-## Setup Testing
+## Test Driven Development (TDD) available.
 
 Testing is also prepared and even couple of testing on components, reducers, action and actionTypes <br />
 is written so whenever you have a unit test, simple add your file in the appropriate <br />
 `__test__` directory and save your time.
 
-## Multiple Working Routes
+## Multiple Working Routes.
 
 For now the routes are not yet protected, but once the authentication is setup working, you can <br />
 use the example in the `Route.js` file, so have an idea of protecting routes.
-**Example** To goto any routes, simply start the server and
-~ `/` to goto **home** route
-~ `/about` to goto **about** route
+**Example** To goto any routes, simply start the server and <br />
+~ `/` to goto **home** route <br />
+~ `/about` to goto **about** route <br />
 ~ `/signin` to goto **sigin** route
 
-### What are the available components
+### What are the available components?
 
 `Auth`
 `Loader`
@@ -46,32 +46,32 @@ use the example in the `Route.js` file, so have an idea of protecting routes.
 `Home`
 `PageNotFound`
 
-## What is the Loader
+## What is the `Loader`?
 
 `Loader` is a just a simple animation component to show whenever there is an event or task thats<br />
 not completing in minmal time.
 **Example**
-Whenever the user is loggin, or fetching data from a certain database.
-**Application**
-~ Import the Loader component from components/Loader/Loader
+Whenever the user is loggin, or fetching data from a certain database.<br />
+**Application**<br />
+~ Import the Loader component from components/Loader/Loader<br />
 ~ Then simpley call `<Loader />`
 
-## What are About & Home
+## What are `About` & `Home`?
 
 This are 2 components that are for now basically serving the same functionalitity, but can be editted<br />
-to show the content you want by replacing the code as needed.
-**Application**
+to show the content you want by replacing the code as needed.<br />
+**Application**<br />
 ~ They are already implemented so, all you need is to customize them to your needs or remove them.
 
-## What is the Header
+## What is the `Header`?
 
 This is the navigation that is seen on all pages execpt `SignIn` & `PageNotFound` and provides links for
-routing to different pages.
-**Application**
+routing to different pages.<br />
+**Application**<br />
 ~ Its already implemented but inorder to add, edit or remove links, open up the `Header` file and customize<br />
 in the `render()` method.
 
-## What is PageNotFound
+## What is `PageNotFound`?
 
 This is a page that is shown whenever the user navigates to page that does not exist.
 
