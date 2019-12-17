@@ -1,0 +1,10 @@
+@import "../../styles/color";
+
+.main-content {
+  background-color: $surface;
+  min-height: 100vh;
+}
+
+.error-message {
+  color: red;
+}

@@ -1,0 +1,18 @@
+@import '../../styles/color';
+
+#page-not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: $secondary;
+  box-sizing: border-box;
+
+  .status-code {
+    padding-right: 10px;
+    color: $primary;
+  }
+}

@@ -1,0 +1,17 @@
+input,
+select {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin: 10px auto;
+  border: none;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+select {
+  background: #fff;
+}
+input[type="submit"] {
+  border-radius: 3px;
+}

@@ -1,0 +1,63 @@
+@import "../../styles/_color";
+
+#loader_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#loader {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: spinner infinite 2s linear;
+}
+#inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+.circle {
+  padding: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+#c_1 {
+  background: $lightSecondary;
+  border: 1px solid $lightSecondary;
+  animation: spacer infinite alternate 0.5s linear;
+}
+#c_2 {
+  background: $primary;
+  border: 1px solid $primary;
+  margin-right: 10px;
+  animation: spacer infinite alternate 0.5s linear;
+}
+#c_3 {
+  background: $secondary;
+  border: 1px solid $secondary;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spacer {
+  0% {
+    margin-right: 0;
+  }
+  100% {
+    margin-right: 40px;
+  }
+}
